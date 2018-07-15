@@ -14,7 +14,7 @@
  * @return string|null Post title for the latest,  * or null if none.
  */
 
-$config = require './config.php';
+$config = require __DIR__ . '/config.php';
 
 $apiKey = $config['apiKey'];
 
